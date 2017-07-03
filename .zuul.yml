@@ -5,9 +5,15 @@ scripts:
   - ahoy.js
   - test/test_helper.js
 browsers:
+  - name: ie
+    version: 9..latest
   - name: chrome
     version: latest
   - name: safari
+    version: 9..latest
+  - name: microsoftedge
     version: latest
-  - name: ie
-    version: 11..latest
+  - name: iphone
+    version: '9.0..latest'
+  - name: android
+    version: '5.0..latest'
